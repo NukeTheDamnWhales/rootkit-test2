@@ -3,7 +3,8 @@
  * Author: Harvey Phillips (xcellerator@gmx.com)
  * License: GPL
  * */
-
+#include <linux/kernel.h>
+#include <linux/kallsyms.h>
 #include <linux/ftrace.h>
 #include <linux/linkage.h>
 #include <linux/slab.h>
